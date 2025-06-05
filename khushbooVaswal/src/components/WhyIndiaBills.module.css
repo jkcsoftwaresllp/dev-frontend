@@ -1,0 +1,45 @@
+.whyIndiaBills {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 200px;
+  padding: 1rem;
+  background: #f2f2f2;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-bottom: 3px solid red; 
+  transform: translateY(-4px);
+}
